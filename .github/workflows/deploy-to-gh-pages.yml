@@ -5,7 +5,8 @@ on:
       - develop
 jobs:
   build-and-deploy:
-    runs-on: Ubuntu 16.04 LTS
+    runs-on: ubuntu-16.04
+
     steps:
     - name: Checkout
       uses: actions/checkout@v1
