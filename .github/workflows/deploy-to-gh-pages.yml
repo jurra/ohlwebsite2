@@ -5,7 +5,7 @@ on:
       - develop
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu 16.04 LTS
     steps:
     - name: Checkout
       uses: actions/checkout@v1
